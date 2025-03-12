@@ -4,6 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import { Route, Routes } from "react-router-dom";
+import NewsLetter from "./components/Home/NewsLetter/NewsLetter";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
       </Routes>
+      <NewsLetter/>
     </>
   );
 }

@@ -1,0 +1,21 @@
+:root{
+    --dark-color:#3074F0;
+    --primary-color:#f7c9d2;
+    --light-color:#f5f5f5;
+    --success-color:#9b9ea1;
+}
+/* .Banner{
+    background-image: url("../../../assets/Home_Main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.Discount h2{
+font-weight: 600;
+}
+.Discount {
+    background: var(--primary-color);
+}
+.Discount_col1 p{
+    color: #000;
+}
