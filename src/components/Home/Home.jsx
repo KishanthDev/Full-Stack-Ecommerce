@@ -14,7 +14,9 @@ const Home = () => {
             <Products />
             <NewArrivals />
             <BestSells />
+            <div className="section1 py-5">
             <OrderMethod/>
+            </div>
         </>
     )
 }

@@ -5,7 +5,7 @@ import img3 from "../../../assets/online-support.png"
 const OrderMethod = ()=>{
     return(
         <>
-        <div className="Order py-5">
+        <div className="Order">
             <div className="container gx-0">
                 <div className="row gx-0 align-items-center">
                     <div className="col-md-4">
