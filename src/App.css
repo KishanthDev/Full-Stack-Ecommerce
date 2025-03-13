@@ -29,6 +29,10 @@ p{
 ul{
     list-style: none;
 }
+.main_h2{
+    font-weight: 600;
+}
+/****************/
 
 .nav_ul a{
     color: var(--success-color);
@@ -124,10 +128,8 @@ animation: stickyHeader 0.3s ease forwards;
 /*******************/
 
 .Footer{
-    padding: 4rem 0;
+    padding: 3rem 2rem;
     margin: 2rem 0;
-    border-top: 2px solid var(--light-color);
-    border-bottom: 2px solid var(--light-color);
 }
 
 .footer_col3 i{
@@ -149,3 +151,20 @@ animation: stickyHeader 0.3s ease forwards;
     transition: 0.3s ease-in-out;
 }
 
+
+/*******************/
+@media only screen and (min-width:320px) and (max-width:567px){
+    .main_h2{
+        font-size: 1.8rem;
+        padding: 0 0 2rem 1.5rem !important;
+    }
+    .navbar-toggler:focus{
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none !important;
+    }
+    .nav-li{
+        padding:0.4rem 1.5rem;
+    }
+}
+/*******************/

@@ -4,7 +4,7 @@ const Products = () => {
     return (
         <>
             <div className="container py-5">
-                <h2 className="Product_h2 pb-5">Popular Products</h2>
+                <h2 className="Product_h2 pb-5 main_h2">Popular Products</h2>
                 <div className="container gx-0">
                     <div className="row gx-0">
                         <div className="col-md-12">

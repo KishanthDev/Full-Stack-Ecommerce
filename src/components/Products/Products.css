@@ -34,3 +34,13 @@ color: #ffc12b;
     cursor: pointer;
     transform: scale(1.08);
 }
+
+/*******************/
+@media only screen and (min-width:320px) and (max-width:567px){
+    .Products_main{
+        grid-template-columns: repeat(2,1fr);
+        gap: 0.5rem;
+     margin: 0.5rem;
+    }
+}
+/*******************/

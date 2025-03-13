@@ -48,7 +48,7 @@ const Banner = () => {
                         <img
                           src={slide.img}
                           alt={slide.title}
-                          className="img-fluid rounded banner-img"
+                          className="img-fluid rounded banner-img order-md-2 order-1"
                         />
                       </div>
                       <div className="col-md-12 col-lg-6">
@@ -74,7 +74,7 @@ const Banner = () => {
                         <img
                           src={slide.img}
                           alt={slide.title}
-                          className="img-fluid rounded banner-img"
+                          className="img-fluid rounded banner-img order-md-2 order-1"
                         />
                       </div>
                     </>

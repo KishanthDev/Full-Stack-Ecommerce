@@ -3,7 +3,7 @@ import "./BestSells.css"
 
 const BestSells = () => {
     return (
-        <div className="container Discount p-5">
+        <div className="container Discount p-5 py-5 py-md-0 px-md-5 my-0 my-md-5">
             <div className="row align-items-center">
                 {/* Text content on the left */}
                 <div className="Discount_col1 col-md-6">
@@ -20,7 +20,7 @@ const BestSells = () => {
                 </div>
 
                 {/* Image on the right */}
-                <div className="col-md-6 text-center">
+                <div className="col-md-6 pt-5 pt-md-0">
                     <img src={img} alt="Headphone" className="img-fluid" />
                 </div>
             </div>
